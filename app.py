@@ -43,4 +43,4 @@ def submit():
         return redirect('/')  # Redirect back to home page after submission
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
