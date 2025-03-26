@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore deployment scripts (optional)
+deploy.sh
+webhook.py
+
