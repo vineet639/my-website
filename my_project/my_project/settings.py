@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4@o@8il3*ce*t3$gsvf=)8hb6!p4j1nz8fm53gb+e%aiehk=0j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['cosmonix.in', 'www.cosmonix.in']
+ALLOWED_HOSTS = ['cosmonix.in', 'www.cosmonix.in', "blocknth.com"]
 
 
 # Application definition
