@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse("<h1>Welcome to Cosmonix!</h1>")
+    return render(request, "index.html")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
